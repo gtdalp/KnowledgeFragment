@@ -27,3 +27,18 @@ navigator.vibrate(0);
 
 navigator.vibrate([]);
 // 但经过我的测试，好像某些浏览器（像UC）不能通过此种方式清除震动。因此为了更好的兼容性，我还是推荐你全部使用 navigator.vibrate(0)
+
+
+// ### 常用HTML事件
+
+// 1、load：当页面完全加载后在window上触发，当图像加载完成后在img元素上触发，或当嵌入内容加载完成时，在object元素上触发
+// 2、unload：页面完全卸载后在window上触发，或嵌入内容卸载后在object元素触发
+// 3、select：用户选择文本框中的字符时触发
+// 4、change：文本框焦点变化后其值改变时触发
+// 5、submit：用户提交表单的时候触发
+// 6、resize：窗口或框架大小变化的时候在window上触发
+// 7、scrool：用户滚动带滚动条的元素时，在该元素上触发
+// 8、focus：页面或元素获得焦点时在window及相应元素上触发
+// 9、blur：页面或元素失去焦点时在window及相应元素上触发
+// 10、beforeunload：页面卸载前在window上触发
+// 11、mousewheel：不算HTML的，当用户通过鼠标滚轮与页面交互，在垂直方向滚动页面时触发、
